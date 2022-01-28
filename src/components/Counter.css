@@ -1,0 +1,43 @@
+.main-div {
+  background-color: rgb(220, 216, 216);
+  display: flex;
+  align-self: auto;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100vw;
+  height: 100vh;
+}
+.header {
+  display: flex;
+  justify-content: center;
+}
+.counter-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border: 1px solid black;
+  font-size: large;
+}
+.cnt-dsp {
+  padding-top: 8px;
+}
+.btn-counter:hover {
+  background-color: antiquewhite;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.joke-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border: 1px solid black;
+  font-size: large;
+}
+.clear-joke {
+  align-items: center;
+
+  display: flex;
+  flex-direction: column;
+  border-bottom: 0.5px solid black;
+}
