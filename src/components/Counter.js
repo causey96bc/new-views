@@ -8,7 +8,7 @@ const Counter = () => {
         setCounter(counter + 1);
     };
     const httpCall = async () => {
-        const response = await axios.get("https://api.jokes.one/jod?category=animal", {
+        const response = await axios.get("https://api.jokes.one/jod", {
             "Content-type": "application/json",
             'Access-Control-Allow-Origin': '*'
 

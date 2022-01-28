@@ -37,7 +37,7 @@ const SideBar = () => {
                     </ListItemIcon>
                     <ListItemText primary={"Delete"} />
                 </ListItem>
-                <ListItem button>
+                <ListItem button onClick={() => setDrawerToggle()}>
                     <ListItemIcon>
                         <CloseIcon />
                     </ListItemIcon>
