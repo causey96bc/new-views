@@ -7,7 +7,6 @@ const Posts = () => {
             <ErrorBoundary>
                 <TwitterPosts />
             </ErrorBoundary>
-
         </>
     );
 };
