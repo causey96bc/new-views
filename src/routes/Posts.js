@@ -1,9 +1,12 @@
 import React from 'react';
 import TwitterPosts from "../components/TwitterPosts";
+import ErrorBoundary from '../utils/ErrorBoundary';
 const Posts = () => {
     return (
         <>
-            <TwitterPosts />
+            <ErrorBoundary>
+                <TwitterPosts />
+            </ErrorBoundary>
 
         </>
     );
