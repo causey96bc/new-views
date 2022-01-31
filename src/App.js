@@ -12,6 +12,7 @@ function App() {
       <nav>
         <Link to="/Posts">See all Posts</Link>
         <Link to="/JokeCounter">Joke Counter</Link>
+        <Link to="/Hooks">See some Hooks</Link>
       </nav>
 
     </>

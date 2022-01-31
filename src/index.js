@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
 import JokeCounter from "./routes/JokeCounter";
 import Posts from "./routes/Posts";
+import Hooks from './routes/Hooks';
 
 ReactDOM.render(
   <BrowserRouter>
@@ -13,6 +14,7 @@ ReactDOM.render(
       <Route path="/" element={<App />} />
       <Route path="/JokeCounter" element={<JokeCounter />} />
       <Route path="/Posts" element={<Posts />} />
+      <Route path="/Hooks" element={<Hooks />} />
     </Routes>
   </BrowserRouter>,
   document.getElementById('root')
